@@ -1,0 +1,90 @@
+===============================================
+     RAPPORT D'ANALYSE - PAYS DU MONDE
+===============================================
+
+STATISTIQUES DE PARSING
+---------------------------
+- Entrées totales lues      : 500
+- Entrées valides           : 101
+- Erreurs de parsing        : 69
+- Doublons supprimés        : 330
+
+RÉPARTITION PAR CONTINENT
+-----------------------------
+- Océanie                 : 2 pays
+- Amérique du Nord        : 8 pays
+- Europe                  : 19 pays
+- Amérique du Sud         : 8 pays
+- Asie                    : 30 pays
+- Afrique                 : 34 pays
+
+TOP 10 - POPULATION
+----------------------
+ 1. China                  : 1,400,000,000 hab.
+ 2. India                  : 1,380,000,000 hab.
+ 3. United States          : 331,000,000 hab.
+ 4. Indonesia              : 273,000,000 hab.
+ 5. Pakistan               : 220,000,000 hab.
+ 6. Brazil                 : 212,000,000 hab.
+ 7. Nigeria                : 206,000,000 hab.
+ 8. Bangladesh             : 164,000,000 hab.
+ 9. Russia                 : 145,000,000 hab.
+10. Mexico                 : 128,000,000 hab.
+
+TOP 10 - SUPERFICIE
+-----------------------
+ 1. Russia                 : 17,098,242 km²
+ 2. Canada                 : 9,984,670 km²
+ 3. United States          : 9,833,517 km²
+ 4. China                  : 9,596,961 km²
+ 5. Brazil                 : 8,515,767 km²
+ 6. Australia              : 7,692,024 km²
+ 7. India                  : 3,287,263 km²
+ 8. Argentina              : 2,780,400 km²
+ 9. Kazakhstan             : 2,724,900 km²
+10. Algeria                : 2,381,741 km²
+
+TOP 10 - PIB
+---------------
+ 1. United States          : 21,433 milliards USD
+ 2. China                  : 14,343 milliards USD
+ 3. Japan                  : 5,082 milliards USD
+ 4. India                  : 2,875 milliards USD
+ 5. United Kingdom         : 2,829 milliards USD
+ 6. France                 : 2,716 milliards USD
+ 7. Italy                  : 2,001 milliards USD
+ 8. Brazil                 : 1,839 milliards USD
+ 9. Canada                 : 1,736 milliards USD
+10. Russia                 : 1,699 milliards USD
+
+LANGUES LES PLUS RÉPANDUES
+--------------------------------
+ 1. English                : 24 pays
+ 2. French                 : 19 pays
+ 3. Arabic                 : 14 pays
+ 4. Spanish                : 13 pays
+ 5. Portuguese             : 4 pays
+
+MOYENNES PAR CONTINENT
+--------------------------
+- Océanie                 : 17,500,000 hab. (moyenne)
+- Amérique du Nord        : 69,750,000 hab. (moyenne)
+- Europe                  : 35,578,947 hab. (moyenne)
+- Amérique du Sud         : 52,250,000 hab. (moyenne)
+- Asie                    : 149,500,000 hab. (moyenne)
+- Afrique                 : 37,705,882 hab. (moyenne)
+
+PAYS MULTILINGUES (>= 3 langues)
+------------------------------------
+- Rwanda                 : Kinyarwanda, French, English
+- Switzerland            : German, French, Italian, Romansh
+- Bolivia                : Spanish, Quechua, Aymara
+- South Africa           : Afrikaans, English, Zulu
+- Belgium                : Dutch, French, German
+
+PERFORMANCE
+---------------
+- Temps de traitement       : 0.097 secondes
+- Entrées/seconde           : 5155
+
+===============================================
