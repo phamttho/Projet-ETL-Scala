@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36eedddb-c45d-4c40-8983-c689301e6dd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/output/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Country.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Country.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/DataLoader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/DataLoader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ReportGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReportGenerator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/StatsCalculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StatsCalculator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/DataLoaderTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/DataLoaderTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log9010661171081042588.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log9561211219253224793.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/DataLoader.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/classes/countrydata/Main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/projet-etl-scala-thitho_3-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/projet-etl-scala-thitho_3-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/test-classes/countrydata/DataLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/test-classes/countrydata/DataLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/test-classes/countrydata/DataLoaderTest.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/test-classes/countrydata/DataLoaderTest.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/test-zinc/inc_compile_3.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/test-zinc/inc_compile_3.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.3.7/zinc/inc_compile_3.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.3.7/zinc/inc_compile_3.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.DataLoaderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.DataLoaderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.DataValidatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.DataValidatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.ReportGeneratorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-countrydata.ReportGeneratorTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

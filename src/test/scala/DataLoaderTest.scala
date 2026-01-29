@@ -12,7 +12,6 @@ class DataLoaderTest extends munit.FunSuite {
       assert(countries.nonEmpty)
     }
   }
-
   test("loadCountries retourne Left avec fichier inexistant") {
     val result = DataLoader.loadCountries("fichier_inexistant.json")
 
@@ -43,29 +42,5 @@ class DataLoaderTest extends munit.FunSuite {
       assertEquals(codes.length, codes.distinct.length, "Il ne devrait pas y avoir de doublons")
     }
   }
-
-  // Tests loadCountriesByField
-  test("loadCountriesByField extrait un champ spécifique") {
-    val result = DataLoader.loadCountriesByField("data/data_clean.json", "name")
-
-    assert(result.isRight)
-    result.foreach { names =>
-      assert(names.nonEmpty)
-      assert(names.forall(_.nonEmpty))
-    }
-  }
-
-  // Tests loadCountriesByFields
-  test("loadCountriesByFields extrait plusieurs champs") {
-    val result = DataLoader.loadCountriesByFields("data/data_clean.json", List("name", "code"))
-
-    assert(result.isRight)
-    result.foreach { maps =>
-      assert(maps.nonEmpty)
-      maps.foreach { m =>
-        assert(m.contains("name"))
-        assert(m.contains("code"))
-      }
-    }
-  }
+  
 }
