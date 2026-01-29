@@ -6,9 +6,7 @@ import scala.io.Source
 
 object DataLoader {
 
-  /**
-   * Reads a JSON file and parses countries with proper resource management
-   */
+  /*Reads a JSON file and parses countries with proper resource management */
   def loadCountries(filename: String): Either[String, List[Country]] = {
     try {
       val source = Source.fromFile(filename)
@@ -82,7 +80,6 @@ object DataLoader {
       case e: Exception => Left(s"Error reading file: ${e.getMessage}")
     }
   }
-
   /* Loads countries from JSON file and filters for valid data */
   def loadValidCountries(filename: String): Either[String, List[Country]] = {
     loadCountries(filename).map { countries =>

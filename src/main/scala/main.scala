@@ -2,13 +2,19 @@ package countrydata
 
 object Main extends App {
 
+
   println("Mini-ETL : Analyse de pays\n")
 
   val start = System.currentTimeMillis()
 
-  // Load all countries (raw)
-  val result = DataLoader.loadCountries("data/data_dirty.json")
+  // Replace the DATA SOURCE here
+  val filename: Option[String] = Some("data/data_large.json")
 
+  // Load all countries (raw)
+  val result = filename match {
+    case Some(fname) => DataLoader.loadCountries(fname)
+    case None => Left("No filename provided") // or handle None case
+  }
   result match {
     case Right(allCountries) =>
       // Generate report (counting is done in StatsCalculator)

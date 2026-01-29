@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Thos-MacBook-Air.local" name="countrydata.ReportGeneratorTest" tests="14" errors="0" failures="0" skipped="0" time="0.04" timestamp="2026-01-29T09:24:20">
+          <properties>
+      <property name="java.specification.version" value="23"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.class.path" value="/Users/thopham/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Scala/launcher/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="separate.prod.test.sources.enabled" value="true"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="jline.shutdownhook" value="false"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="user.timezone" value="Europe/Paris"/><property name="java.vm.specification.version" value="23"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.boot.library.path" value="/Users/thopham/Library/Java/JavaVirtualMachines/temurin-23.0.2/Contents/Home/lib"/><property name="sun.java.command" value="/Users/thopham/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/private/var/folders/6m/76q2b_1x029g6q3wzjzr79vr0000gn/T/idea.sbt&quot;&quot;&quot;) idea-shell"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="jdk.debug" value="release"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/thopham"/><property name="user.language" value="en"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="sbt.ipcsocket.tmpdir" value="/var/folders/6m/76q2b_1x029g6q3wzjzr79vr0000gn/T/.sbtf9bdf277/ipcsocket"/><property name="swoval.tmpdir" value="/var/folders/6m/76q2b_1x029g6q3wzjzr79vr0000gn/T/.sbtf9bdf277/swoval"/><property name="java.version.date" value="2025-01-21"/><property name="java.home" value="/Users/thopham/Library/Java/JavaVirtualMachines/temurin-23.0.2/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="apple.awt.application.name" value="Boot"/><property name="idea.installation.dir" value="/Users/thopham/Applications/IntelliJ IDEA Community Edition.app/Contents"/><property name="jline.esc.timeout" value="0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.runtime.version" value="23.0.2+7"/><property name="user.name" value="thopham"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="15.5"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.version" value="Temurin-23.0.2+7"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="java.io.tmpdir" value="/var/folders/6m/76q2b_1x029g6q3wzjzr79vr0000gn/T/"/><property name="java.version" value="23.0.2"/><property name="user.dir" value="/Users/thopham/IdeaProjects/Etl-project"/><property name="os.arch" value="aarch64"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="grouping.with.qualified.names.enabled" value="true"/><property name="idea.managed" value="true"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/thopham/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="jdk.console" value="java.base"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.vm.version" value="23.0.2+7"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.version" value="67.0"/>
+    </properties>
+          <testcase classname="countrydata.ReportGeneratorTest" name="generateReport crée un rapport avec les bonnes statistiques" time="0.007">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport compte les erreurs de parsing" time="0.001">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport compte les doublons" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top 10 population" time="0.001">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top 10 area" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top 10 GDP" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère countries by continent" time="0.001">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top languages" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère multilingual countries" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top 10 density" time="0.001">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère top 10 GDP per capita" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="generateReport génère pivot table des pays les plus riches" time="0.0">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="writeReports retourne Right si succès" time="0.029">
+                      
+                    </testcase><testcase classname="countrydata.ReportGeneratorTest" name="writeJsonReport retourne Left si chemin invalide" time="0.0">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

@@ -29,17 +29,30 @@ object StatsCalculator {
     countries.filter(_.gdp > 0).sortBy(-_.gdp).take(n)
   }
   // Compter pays par continent
+  // groupBy(_.continent): regroupe les pays par continent -> Map[String, List[Country]]
+  // map { case (continent, list) => ... }: transforme chaque groupe en tuple (continent, nombre)
   def countByContinent(countries: List[Country]): Map[String, Int] = {
     countries.groupBy(_.continent).map { case (continent, list) => (continent, list.length) }
   }
+
   // Population moyenne par continent
+  // Chaîne de HOFs: groupBy -> map -> map (imbriqué pour sum)
+  // Pattern matching sur tuple (continent, list) pour extraire les valeurs
   def avgPopulationByContinent(countries: List[Country]): Map[String, Double] = {
     countries.groupBy(_.continent).map { case (continent, list) =>
       val avg = if (list.nonEmpty) list.map(_.population).sum.toDouble / list.length else 0.0
       (continent, avg)
     }
   }
+
   // Langues les plus répandues (top 5)
+  // Pipeline de transformations:
+  // 1. flatMap(_.languages): aplatit List[List[String]] -> List[String] (toutes les langues)
+  // 2. groupBy(identity): regroupe par langue -> Map[String, List[String]]
+  // 3. map: compte les occurrences de chaque langue
+  // 4. toList: convertit Map en List pour pouvoir trier
+  // 5. sortBy(-_._2): trie par count décroissant (_._2 = 2ème élément du tuple)
+  // 6. take(n): prend les n premiers
   def topLanguages(countries: List[Country], n: Int = 5): List[(String, Int)] = {
     countries
       .flatMap(_.languages)
@@ -59,6 +72,7 @@ object StatsCalculator {
       .filter(_.area > 0)
       .map(c => (c, c.population.toDouble / c.area))
   }
+//  BONUS BONUS BONUS
   // Top 10 pays les plus denses
   def topByDensity(countries: List[Country], n: Int = 10): List[(Country, Double)] = {
     withDensity(countries).sortBy(-_._2).take(n)
@@ -67,7 +81,7 @@ object StatsCalculator {
   def withGdpPerCapita(countries: List[Country]): List[(Country, Double)] = {
     countries
       .filter(c => c.population > 0 && c.gdp > 0)
-      .map(c => (c, c.gdp.toDouble / c.population))
+      .map(c => (c, c.gdp.toDouble * 1000000000 / c.population))
   }
   // Top 10 pays les plus riches par habitant
   def topByGdpPerCapita(countries: List[Country], n: Int = 10): List[(Country, Double)] = {

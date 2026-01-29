@@ -24,6 +24,16 @@ case class TopCountryByArea(name: String, area: Int, continent: String)
 case class TopCountryByGdp(name: String, gdp: Int, continent: String)
 case class LanguageCount(language: String, count: Int)
 case class MultilingualCountry(name: String, languages: List[String])
+case class DensityRanking(name: String, density: Double, continent: String)
+case class GdpPerCapitaRanking(name: String, gdp_per_capita: Double, continent: String)
+
+// Pivot table: Top 10 richest countries with multiple columns
+case class RichestCountryPivot(
+  name: String,
+  population: Long,
+  gdp: Int,
+  gdp_per_capita: Double
+)
 
 case class CountryReport(
   statistics: ParsingStatistics,
@@ -33,5 +43,8 @@ case class CountryReport(
   countries_by_continent: Map[String, Int],
   average_population_by_continent: Map[String, Double],
   most_common_languages: List[LanguageCount],
-  multilingual_countries: List[MultilingualCountry]
+  multilingual_countries: List[MultilingualCountry],
+  top_10_by_density: List[DensityRanking],
+  top_10_by_gdp_per_capita: List[GdpPerCapitaRanking],
+  pivot_richest_countries: List[RichestCountryPivot]
 )
